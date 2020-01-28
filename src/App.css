@@ -36,3 +36,283 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #8dc53f;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main-game {
+  width: 500px;
+  height: 770px;
+  background-color: #eeeeee;
+  border-bottom-right-radius: 100px !important;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 9px 9px 19px -2px black;
+}
+.div-header {
+  width: 100%;
+  height: 40px;
+  border-bottom: 7px solid #bdbec0;
+  display: flex;
+}
+.div-menor-left-header {
+  width: 8%;
+  height: 100%;
+  border-right: 7px solid #bdbec0;
+}
+.div-menor-right-header {
+  width: 8%;
+  height: 100%;
+  border-left: 7px solid #bdbec0;
+}
+.div-maior-header {
+  width: 84%;
+  height: 100%;
+}
+.screen-game {
+  margin-top: 30px;
+  width: 85%;
+  height: 40%;
+  background-color: #70808f;
+  border-bottom-right-radius: 100px !important;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.battery-screen {
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ball-screen {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #333335;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ball-green {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgb(167, 248, 6);
+}
+.battery-game {
+  margin-top: 3px;
+  font-size: 13px;
+  color: white;
+}
+.screen-header {
+  width: 95%;
+  height: 35px;
+  display: flex;
+}
+.lines-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+.red-line {
+  width: 100%;
+  background-color: #874872;
+  height: 2px;
+  border-radius: 10px;
+}
+.blue-line {
+  width: 100%;
+  background-color: #2f3f8c;
+  height: 2px;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+.screen-menor-game {
+  width: 60%;
+  height: 85%;
+  background-color: #8dc53f;
+  border-radius: 2px;
+}
+.div-screen-menor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+@font-face {
+  font-family: Nintendo;
+  src: url(./font/Nintendo-DS-BIOS.ttf);
+}
+@font-face {
+  font-family: Nintendo2;
+  src: url(./font/BorisBlackBloxx.ttf);
+}
+@font-face {
+  font-family: Game;
+  src: url(./font/GeosansLight-Oblique.ttf);
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.nintendo-text {
+  font-family: Nintendo2;
+  color: #8792b4;
+  font-size: 20px;
+}
+.gameBoy-text {
+  font-family: Game;
+  color: #8792b4;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+.div-text {
+  display: flex;
+  width: 85%;
+  margin-top: 15px;
+}
+.div-buttons {
+  width: 85%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.joistick {
+  width: 30%;
+  height: 30%;
+}
+.reto {
+  width: 80%;
+  height: 80%;
+  background-color: #333335;
+  z-index: 1;
+  top: 130%;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 9px 7px 2px -2px #dfdfdf;
+}
+.deitado {
+  width: 30%;
+  height: 100px;
+  left: 25%;
+  top: -27%;
+  background-color: #333335;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
+.div-buttonsAB {
+  width: 35%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.buttonsAB {
+  width: 100%;
+  height: 100%;
+  transform: rotate(335deg);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: #dfdfdf;
+  border-radius: 45px;
+}
+.ball-A {
+  margin: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #903369;
+  cursor: pointer;
+}
+.a {
+  font-family: Nintendo;
+  font-size: 26px;
+  color: #414141;
+  margin: 0;
+}
+.div-buttons-start {
+  width: 30%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.start {
+  width: 100%;
+  height: 15px;
+  border-radius: 50px;
+  background-color: #858f98;
+  transform: rotate(335deg);
+  cursor: pointer;
+}
+.start-text {
+  transform: rotate(335deg);
+  margin-left: 18px;
+  font-family: Nintendo2;
+  color: #8792b4;
+  font-size: 12px;
+}
+.select-text {
+  transform: rotate(335deg);
+  margin-left: 15px;
+  font-family: Nintendo2;
+  color: #8792b4;
+  font-size: 12px;
+}
+.div-start {
+  width: 45%;
+  height: 90%;
+}
+.div-volume {
+  width: 20%;
+  width: 85%;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.volume {
+  width: 50%;
+  height: 60%;
+  transform: rotate(335deg);
+  display: flex;
+  justify-content: space-between;
+}
+.mini-volumes {
+  width: 7px;
+  height: 100%;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: -7px 0px 5px 0px #dfdfdf;
+}
+.text-AB {
+  width: 100%;
+  transform: rotate(335deg);
+  display: flex;
+  align-items: center;
+}
+.A-text {
+  font-family: Nintendo2;
+  color: #8792b4;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.B-text {
+  font-family: Nintendo2;
+  color: #8792b4;
+  margin-left: 60px;
+  margin-top: 10px;
+}
