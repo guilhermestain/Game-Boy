@@ -4,4 +4,4 @@ Desenvolvido com CSS e HTML, com intuíto de aprimorar habilidades de reproduç�
 
 # ScreenShoot
 
-![Game Boy](https://github.com/guilhermestain/Game-Boy/blob/master/public/print-game.jpeg "Game Boy Nintendo 1989")
+![Game Boy](https://github.com/guilhermestain/Game-Boy/blob/master/public/print-game.jpg "Game Boy Nintendo 1989")
