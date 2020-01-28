@@ -79,7 +79,8 @@ class App extends Component {
             </div>
             <div class="div-text">
               <div class="nintendo-text">Nintendo</div>
-              <div class="gameBoy-text">GAME BOY ™</div>
+              <div class="gameBoy-text">GAME BOY </div>
+              <div class="tm-text">TM</div>
             </div>
             <div class="div-buttons">
               <div class="joistick">

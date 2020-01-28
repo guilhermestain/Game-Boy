@@ -175,7 +175,16 @@ body {
   font-weight: bold;
   margin-left: 6px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+}
+.tm-text {
+  font-family: Game;
+  color: #8792b4;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 6px;
+  display: flex;
+  align-items: flex-end;
 }
 .div-text {
   display: flex;
